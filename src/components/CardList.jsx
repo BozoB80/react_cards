@@ -11,7 +11,7 @@ const CardList = () => {
           image={card.image}
           title={card.title}
           description={card.description}
-          ordinalNumber={card.ordinalNumber}
+          ordinalNumber={card.ordinalNumber} 
         />
       ))}
     </div>
