@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ image, title, description, ordinalNumber }) => {
   return (
-    <div className="flex flex-col bg-white shadow-md h-auto sm:w-60 rounded-md">
+    <div className="flex flex-col bg-white shadow-md h-auto sm:w-60 rounded-md cursor-pointer hover:scale-105 transition ease-in-out delay-150">
       <img
         src={image}
         alt={title}

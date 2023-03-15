@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Card";
-import { cardsData } from '../utils/cardsData'
+import { cardsData } from "../utils/cardsData";
 
 const CardList = () => {
   return (
-    <div className="w-full grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 lg:gap-3 mx-auto p-2 md:p-5">
+    <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:gap-3 mx-auto p-2 md:p-5">
       {cardsData.map((card, index) => (
         <Card
           key={index}
