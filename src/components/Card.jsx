@@ -18,7 +18,7 @@ const Card = ({ image, title, description, ordinalNumber }) => {
           {description}
         </p>
         <span>
-          <span className="font-bold uppercase text-sm">Number: </span>
+          <span className="font-bold uppercase text-sm">Ordinal number: </span>
           {ordinalNumber}
         </span>
       </div>
