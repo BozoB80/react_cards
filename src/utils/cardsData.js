@@ -5,7 +5,7 @@ export const cardsData = [
     title: "Travel",
     description:
       "Discover hidden wonders and inspiring destinations around the world from the comfort of your own home.",
-    ordinalNumber: 1
+    ordinalNumber: 4
 
   },
   {
@@ -14,7 +14,7 @@ export const cardsData = [
     title: "Nature",
     description:
       "This celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.",
-    ordinalNumber: 2
+    ordinalNumber: 8
     
   },
   {
@@ -31,7 +31,7 @@ export const cardsData = [
     title: "Business",
     description:
       "Reflecting the realities of the modern workplace in their many forms, from remote working and start-ups to engineers and artists at work.",
-    ordinalNumber: 4
+    ordinalNumber: 7
   },
   {
     image:
@@ -39,7 +39,7 @@ export const cardsData = [
     title: "Arts & Culture",
     description:
       "Your daily dose of culture — with photography showcasing the best in art, music and literature from around the world.",
-    ordinalNumber: 5
+    ordinalNumber: 2
   },
   {
     image:
@@ -47,7 +47,7 @@ export const cardsData = [
     title: "Animals",
     description:
       "Exotic wildlife, pet kittens — and everything in between. Uncover the beauty of the animal kingdom through your screen.",
-    ordinalNumber: 6
+    ordinalNumber: 5
   },
   {
     image:
@@ -55,7 +55,7 @@ export const cardsData = [
     title: "Street",
     description:
       "When the streets around you become your canvas, what can you discover? From quiet passages in charming towns to the hustle and bustle of larger cities.",
-    ordinalNumber: 7
+    ordinalNumber: 10
   },
   {
     image:
@@ -63,7 +63,7 @@ export const cardsData = [
     title: "Textures",
     description:
       "Whether you’re looking for stunning macro-photography or shots of complex architectural shapes — you’ve come to the right place.",
-    ordinalNumber: 8
+    ordinalNumber: 1
   },
   {
     image:
@@ -71,7 +71,7 @@ export const cardsData = [
     title: "Interiors",
     description:
       "Exploring our built environments — from brutalist buildings to eccentric home decor, the best of architecture and interiors.",
-    ordinalNumber: 9
+    ordinalNumber: 6
   },
   {
     image:
@@ -79,6 +79,6 @@ export const cardsData = [
     title: "Athletics",
     description:
       "Action in the every day — from the tough gym workouts, to tense basketball games, to the extreme heights of heliskiing.",
-    ordinalNumber: 10
+    ordinalNumber: 9
   },
 ];
