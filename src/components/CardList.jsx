@@ -6,7 +6,7 @@ const CardList = () => {
   const sortedData = cardsData.map(card => ({ ...card })).sort((a, b) => a.ordinalNumber - b.ordinalNumber);
 
   return (
-    <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:gap-3 mx-auto p-2 md:p-5">      
+    <div className="w-full grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:gap-3 mx-auto p-2 md:p-5">      
       {sortedData.map((card) => (
         <Card
           key={card.title}

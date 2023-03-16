@@ -6,19 +6,19 @@ const Card = ({ image, title, description, ordinalNumber }) => {
       <img
         src={image}
         alt={title}
-        className="w-full h-40 sm:h-[300px] object-cover rounded-t-md"
+        className="w-full h-[68px] sm:h-[300px] object-cover rounded-t-md"
       />
-      <div className="flex flex-col justify-between items-start text-sm p-1 space-y-2">
+      <div className="flex flex-col justify-between items-start text-xs sm:text-sm p-1 sm:space-y-2">
         <h2>
-          <span className="font-bold uppercase text-sm">Title: </span>
+          <span className="font-bold uppercase text-xs sm:text-sm">Title: </span>
           {title}
         </h2>
-        <p className="line-clamp-4">
-          <span className="font-bold uppercase text-sm">Description: </span>
+        <p className="line-clamp-2 sm:line-clamp-4">
+          <span className="font-bold uppercase text-xs sm:text-sm">Description: </span>
           {description}
         </p>
         <span>
-          <span className="font-bold uppercase text-sm">Ordinal number: </span>
+          <span className="font-bold uppercase text-xs sm:text-sm">Ordinal number: </span>
           {ordinalNumber}
         </span>
       </div>
