@@ -6,7 +6,7 @@ const Card = ({ image, title, description, ordinalNumber }) => {
       <img
         src={image}
         alt={title}
-        className="w-full h-[114px] sm:h-[236px] xl:h-[250px] object-cover rounded-t-md"
+        className="w-full h-[114px] md:h-[236px] xl:h-[250px] object-cover rounded-t-md"
       />
       <div className="flex flex-col justify-between items-start text-xs sm:text-sm p-1 sm:space-y-2">
         <h2>
